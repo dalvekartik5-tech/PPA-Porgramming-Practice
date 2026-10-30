@@ -1,0 +1,39 @@
+import java.util.*;
+class AgeInvalid extends exception
+{
+    public AgeInvalid(String str)
+    {
+        super(str;)
+    }
+}
+class exceptiondemo4
+{
+  public static void main(String A[])
+   {
+    
+    Scanner sobj=new Scanner (System.in);
+    int age=0;
+
+    system.out.println("enter yout age");
+    age=sobj.nextInt();
+
+ try {
+      if(age<18)
+    {
+        throw new AgeInvalid(str:"You are underage");
+    }
+    else
+    {
+        system.out.println("Welcome to ....");
+    }
+
+  }
+
+  catch(AgeInvalid aobj)
+{
+    system.out.println("Exception occured due to age");
+}   
+
+
+  }
+}

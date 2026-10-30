@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+float value1=10.5f;
+float value2=11.5f;
+float ans=0.0f;
+
+
+ans=value1+value2;
+
+printf("\nAddition is %f",ans);
+
+
+    return 0;
+}

@@ -1,0 +1,28 @@
+#include<iostream>
+
+using namespace std;
+
+class demo
+{
+    public:
+        int i;
+        char ch;
+        private:
+            float f;    
+};
+
+int main()
+{
+
+class demo dobj;
+
+dobj.i=11;
+dobj.ch='A';
+dobj.f=3.14;
+
+cout<<dobj.i<<"\n";
+cout<<dobj.ch<<"\n";
+cout<<dobj.f<<"\n";
+
+    return 0;
+}
